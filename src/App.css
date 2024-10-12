@@ -1,0 +1,28 @@
+/* src/App.css */
+body {
+  background-image: url('./Assets/background4.jpg');
+  font-family: 'Arial', sans-serif;
+  background-color: #F8F8FF; /* Ghost White */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Cursive', sans-serif;
+  color: #FF69B4; /* Hot Pink */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

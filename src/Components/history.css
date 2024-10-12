@@ -1,0 +1,37 @@
+/* src/pages/HistoryPage.css */
+.history-container {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #F0F8FF; /* Alice Blue */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2.5rem;
+    color: #dd5096; /* Hot Pink */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between images */
+    flex-wrap: wrap; /* Ensures that images wrap if the screen is too small */
+    margin-top: 20px;
+}
+
+img {
+    width: 250px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

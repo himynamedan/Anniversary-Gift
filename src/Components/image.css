@@ -1,0 +1,67 @@
+/* src/pages/ImagePage.css */
+.container {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 800px;
+  background-color: #FFF0F5; /* Lavender Blush */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Adds space between images */
+  flex-wrap: wrap; /* Ensures that images wrap if the screen is too small */
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Cursive', sans-serif;
+  font-size: 2rem;
+  color: #FF69B4; /* Hot Pink */
+}
+
+.screenshot {
+  margin: 1rem 0;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 250px;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.us {
+  width: 300px;  /* Default width for all images */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Specifically target the second image (us2) to retain its original dimensions */
+.us:nth-child(1) {
+  width: 500px;
+  height: 300px;
+}
+
+.us:nth-child(5) {
+  height:300px
+}
+
+.gift:nth-child(29) {
+  width: 550px;
+  height: 350px;
+}
+
+.gift:nth-child(1) {
+  width: 550px;
+  height: 350px;
+}
+
+.gift:nth-child(2) {
+  width: 550px;
+}

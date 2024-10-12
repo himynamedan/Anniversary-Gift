@@ -1,0 +1,40 @@
+/* src/components/Navbar.css */
+.navbar {
+  position: fixed; /* Fixes the navbar at the top */
+  top: 0;
+  width: 100%;
+  background-color: #fda6b5; /* Light Pink */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the navbar stays above the rest of the content */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #64c6ed; /* Light Blue */
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #87CEEB; /* Sky Blue */
+}
+
+/* Ensure the body content doesn’t hide behind the navbar */
+body {
+  margin: 0;
+  padding-top: 80px; /* Adjust based on navbar height */
+}
