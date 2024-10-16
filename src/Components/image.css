@@ -7,6 +7,7 @@
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: fit-content;
 }
 
 .image-container {
@@ -59,7 +60,7 @@ img:hover {
   height:300px
 }
 
-.gift:nth-child(29) {
+.gift:nth-child(30) {
   width: 550px;
   height: 350px;
 }
@@ -71,4 +72,9 @@ img:hover {
 
 .gift:nth-child(2) {
   width: 550px;
+}
+
+.gift:nth-child(13) {
+  width: 550px;
+  height: 300px;
 }

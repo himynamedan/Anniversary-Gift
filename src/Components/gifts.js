@@ -29,6 +29,7 @@ import gift25 from '../Assets/flower4.jpg';
 import gift26 from '../Assets/flowers7.jpg';
 import gift27 from '../Assets/flowers8.jpg';
 import gift28 from '../Assets/flowers9.jpg';
+import gift29 from "../Assets/page.png";
 import './image.css';  // Using the generic ImagePage CSS
 
 const GiftsPage = () => {
@@ -53,6 +54,7 @@ const GiftsPage = () => {
         <img src={gift9} alt="Message Screenshot 2" className="gift" />
         <img src={gift10} alt="Message Screenshot 2" className="gift" />
         <img src={gift11} alt="Message Screenshot 2" className="gift" />
+        <img src={gift29} alt="Message Screenshot 2" className="gift" />
         <img src={gift12} alt="Message Screenshot 2" className="gift" />
         <img src={gift13} alt="Message Screenshot 2" className="gift" />
         <img src={gift14} alt="Message Screenshot 2" className="gift" />

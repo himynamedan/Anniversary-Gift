@@ -15,7 +15,6 @@ const Navbar = () => {
         <li><Link to="/" className="nav-link">History</Link></li>
         <li><Link to="/messages" className="nav-link">Our Texts</Link></li>
         <li><Link to="/gifts" className="nav-link">Gifts</Link></li>
-        <li><Link to="/flower" className="nav-link">Flower</Link></li>
         <li><Link to="/photos" className="nav-link">Photos</Link></li>
         <li><Link to="/anniversary" className="nav-link">My Message</Link></li>
         <li style={{paddingLeft: "200px"}}>I love you :)</li>
