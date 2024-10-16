@@ -1,7 +1,7 @@
 /* src/App.css */
 body {
   background-image: url('./Assets/background4.jpg');
-  font-family: 'Arial', sans-serif;
+  font-family: cursive;
   background-color: #F8F8FF; /* Ghost White */
   color: #333;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  font-family: 'Cursive', sans-serif;
+  font-family: cursive;
   color: #FF69B4; /* Hot Pink */
 }
 

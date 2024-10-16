@@ -1,36 +1,50 @@
-/* src/components/Navbar.css */
 .navbar {
   position: fixed; /* Fixes the navbar at the top */
   top: 0;
   width: 100%;
-  background-color: #fda6b5; /* Light Pink */
+  background-color: #ffc7d0; /* Light Pink */
   padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Space between logo and nav items */
+  align-items: center; /* Vertically center the items */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000; /* Ensure the navbar stays above the rest of the content */
 }
 
+/* Logo styling */
+.logo-container {
+  padding-left: 5rem; /* Adds spacing between the logo and the left edge */
+}
+
+.logo {
+  height: 50px; /* Adjust the logo height */
+  width: auto;  /* Keeps the aspect ratio */
+}
+
 .navbar-list {
+  font-family:cursive;
+  text-decoration:double;
   list-style: none;
   display: flex;
   gap: 2rem;
   padding: 0;
   margin: 0;
+  padding-right: 28rem; /* Adds spacing between the nav items and the right edge */
 }
 
 .nav-link {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #fff;
-  background-color: #64c6ed; /* Light Blue */
+  color: #64c6ed;
+  background-color: #ffc7d0; /* Light Blue */
   padding: 0.5rem 1rem;
   border-radius: 20px;
   transition: background-color 0.3s ease;
 }
 
 .nav-link:hover {
-  background-color: #87CEEB; /* Sky Blue */
+  background-color: #f5dee2; /* Sky Blue */
+  color: #dd5096;
 }
 
 /* Ensure the body content doesn’t hide behind the navbar */
