@@ -5,6 +5,7 @@ import Navbar from './Components/navbar';
 import HistoryPage from './Components/history';
 import MessagesPage from './Components/messages';
 import GiftsPage from './Components/gifts';
+import FlowerPage from './Components/flower';
 import PhotosPage from './Components/pictures';
 import AnniversaryPage from './Components/anniversary';
 import './App.css';  // Importing the global CSS
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<HistoryPage />} />
           <Route path="/messages" element={<MessagesPage />} />
           <Route path="/gifts" element={<GiftsPage />} />
+          <Route path="/flower" element={<FlowerPage />} />
           <Route path="/photos" element={<PhotosPage />} />
           <Route path="/anniversary" element={<AnniversaryPage />} />
         </Routes>

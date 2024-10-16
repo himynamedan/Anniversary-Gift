@@ -10,6 +10,7 @@
 }
   
 h1 {
+    margin-top: 100px;
     font-family: 'Cursive', sans-serif;
     font-size: 2.5rem;
     color: #dd5096; /* Hot Pink */
@@ -34,7 +35,6 @@ img {
     width: 250px;
     border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
     transition: transform 0.5s ease, border 0.5s ease; 
 }
 

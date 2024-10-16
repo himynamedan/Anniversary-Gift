@@ -6,7 +6,28 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  cursor: url('./Assets/black-heart.png'), auto; /* Set the custom cursor */
 }
+
+/* Styling for the scrollbar */
+::-webkit-scrollbar {
+  width: 20px;  /* Set width for vertical scrollbar */
+  height: 12px; /* Set height for horizontal scrollbar */
+}
+
+/* Styling the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: black;   /* Black color */
+  border-radius: 8px;        /* Curved borders */
+  border: 3px solid #333;    /* Optional: adds a border around the thumb */
+}
+
+/* Styling the track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Light background for the track */
+  border-radius: 8px;         /* Curved borders */
+}
+
 
 h1 {
   font-family: cursive;

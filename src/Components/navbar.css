@@ -29,7 +29,7 @@
   gap: 2rem;
   padding: 0;
   margin: 0;
-  padding-right: 28rem; /* Adds spacing between the nav items and the right edge */
+  padding-right: 3rem; /* Adds spacing between the nav items and the right edge */
 }
 
 .nav-link {

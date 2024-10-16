@@ -34,9 +34,7 @@ const HistoryPage = () => {
         <img src={confess2} alt="Message Screenshot 2" className="screenshot" />
       </div>
       <h1>Our Cute Bond</h1>
-      <p>We share a very cute bond.</p>
-      <p>To me, our relation is the cutest one ever.</p>
-      <p>Even the tiny things for each other make us really happy.</p>
+      <p>We share a very cute bond.<br></br>To me, our relation is the cutest one ever.<br></br>Even the tiny things for each other make us really happy.</p>
       <div className='image-container'>
         <img src={handheart} alt="handheart" className='Collage' />
         <img src={handheart2} alt="handheart" className='Collage' />
