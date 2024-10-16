@@ -47,6 +47,12 @@
   color: #dd5096;
 }
 
+/* Active link styling */
+.nav-link.active {
+  color: #dd5096; /* Change the color of the active link */
+  font-weight: bold; /* Optional: Makes the active link stand out */
+}
+
 /* Ensure the body content doesn’t hide behind the navbar */
 body {
   margin: 0;

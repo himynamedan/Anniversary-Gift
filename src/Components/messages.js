@@ -62,7 +62,8 @@ const MessagesPage = () => {
         <img src={text8} alt="screenshot" className="screenshot" />
         <img src={text11} alt="screenshot" className="screenshot" />
       </div>
-      <br></br><br></br><br></br><br></br><br></br><br></br>
+      <p>You have no idea how hard you make me baby girl ❤️</p>
+      <br></br>
       <h1>It is not just limited to texts.</h1>
       <h2>There's more</h2>
       <div className='image-container'>
@@ -71,6 +72,7 @@ const MessagesPage = () => {
         <img src={draw3} alt="screenshot" className="screenshot" />
         <img src={draw4} alt="screenshot" className="screenshot" />
       </div>
+      <p>I can't wait for all this with you ❤️</p>
     </div>
   );
 };

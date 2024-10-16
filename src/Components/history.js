@@ -42,7 +42,7 @@ const HistoryPage = () => {
         <img src={cute2} alt="handheart" className='Collage' />
         <img src={cute3} alt="handheart" className='Collage' />
       </div>
-      
+      <p>Every day with you is like a breeze on a hot summer day ❤️</p>
     </div>
   );
 };

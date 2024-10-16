@@ -73,6 +73,7 @@ const GiftsPage = () => {
         <img src={gift28} alt="Message Screenshot 2" className="gift" />  
         <img src={gift17} alt="Message Screenshot 2" className="gift" />
       </div>
+      <p>You make my heart melt every single time I think of you ❤️</p>
     </div>
   );
 };

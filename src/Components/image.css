@@ -74,6 +74,10 @@ img:hover {
   width: 550px;
 }
 
+.gift:nth-child(3) {
+  height: 300px;
+}
+
 .gift:nth-child(13) {
   width: 550px;
   height: 300px;
